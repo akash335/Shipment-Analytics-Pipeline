@@ -147,7 +147,7 @@ Shipment Analytics Pipeline/
 
 ### PySpark Analytics
 
-![Analytics Output](https://raw.githubusercontent.com/akash35/Shipment-Analytics-Pipeline/main/docs/screenshots/analytics-output.png)
+![Analytics Output](https://raw.githubusercontent.com/akash335/Shipment-Analytics-Pipeline/main/docs/screenshots/analytics-output.png)
 
 ### GitHub Actions
 
