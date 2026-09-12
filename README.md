@@ -9,6 +9,16 @@ End-to-end data engineering pipeline built with PostgreSQL, PySpark, Parquet, db
 
 PostgreSQL → PySpark → Parquet → dbt → Analytics Mart → Airflow
 
+## Key Results
+
+- Processed 500,000 shipment records through the pipeline.
+- Validated 500,000 source vs processed records.
+- Verified 0 missing customer, warehouse, and carrier references.
+- Built 6 dbt models across staging, intermediate, and mart layers.
+- Added 11 automated dbt data-quality tests.
+- Orchestrated Spark → dbt → dbt tests with Apache Airflow.
+- Added GitHub Actions CI for Python and dbt validation.
+
 ## Tech Stack
 
 - PostgreSQL
@@ -110,3 +120,20 @@ Shipment Analytics Pipeline/
 │   └── spark_transform.py
 ├── README.md
 └── .gitignore
+## Pipeline Evidence
+
+### Airflow
+
+![Airflow Pipeline](docs/screenshots/airflow-success.png)
+
+### dbt Data Quality
+
+![dbt Tests](docs/screenshots/dbt-tests.png)
+
+### PySpark Analytics
+
+![Analytics Output](docs/screenshots/analytics-output.png)
+
+### GitHub Actions
+
+![GitHub Actions CI](docs/screenshots/github-actions-ci.png)
