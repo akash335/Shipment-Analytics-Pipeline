@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: shipments
+      - name: customers
+      - name: carriers
+      - name: warehouses

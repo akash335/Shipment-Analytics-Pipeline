@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# Data
+data/processed/
+*.csv
+*.parquet
+
+# dbt
+dbt/*/target/
+dbt/*/logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example

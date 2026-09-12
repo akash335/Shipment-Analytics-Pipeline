@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: stg_shipments
+    columns:
+      - name: shipment_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: int_shipments_enriched
+    columns:
+      - name: shipment_id
+        tests:
+          - not_null
+          - unique
+
+      - name: is_delayed
+        tests:
+          - not_null
+
+      - name: is_cancelled
+        tests:
+          - not_null
+
+  - name: fct_shipment_performance
+    columns:
+      - name: destination_region
+        tests:
+          - not_null
+          - unique
