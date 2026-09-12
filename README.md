@@ -1,5 +1,8 @@
 # Shipment Analytics Pipeline
 
+[![Shipment Analytics CI](https://github.com/akash335/Shipment-Analytics-Pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/akash335/Shipment-Analytics-Pipeline/actions/workflows/ci.yml)
+
+
 End-to-end data engineering pipeline built with PostgreSQL, PySpark, Parquet, dbt, and Apache Airflow.
 
 ## Architecture
@@ -107,4 +110,3 @@ Shipment Analytics Pipeline/
 │   └── spark_transform.py
 ├── README.md
 └── .gitignore
-
